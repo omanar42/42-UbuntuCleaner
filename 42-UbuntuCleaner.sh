@@ -12,7 +12,6 @@ echo -e "Cleaning and optimizing your system...\n"
 /bin/rm -rf ~/tmp/* &> /dev/null
 /bin/rm -rf ~/.cache/system-cache/* &> /dev/null
 
-
 echo -e "\033[32mCleaning completed!\033[0m"
 
 # End of script
