@@ -11,6 +11,7 @@ echo -e "Cleaning and optimizing your system...\n"
 /bin/rm -rf ~/.local/share/Trash/* &> /dev/null
 /bin/rm -rf ~/tmp/* &> /dev/null
 /bin/rm -rf ~/.cache/system-cache/* &> /dev/null
+flatpak uninstall --unused -y &> /dev/null
 
 echo -e "\033[32mCleaning completed!\033[0m"
 
