@@ -27,9 +27,6 @@ if ! grep -q "alias uclean" < "$shellConfig" &> /dev/null; then
 	echo -e "\nalias uclean=\"bash $HOME/.42-UbuntuCleaner.sh\"" >> "$shellConfig"
 fi
 
-# source shell config
-source "$shellConfig"
-
 echo -e "\033[32m\n -- 42 Ubuntu Cleaner Successfully Installed --\n\033[0m"
 
 exit 0
